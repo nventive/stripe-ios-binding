@@ -1,5 +1,4 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 
 using Foundation;
 
@@ -12,13 +11,13 @@ using Foundation;
 // Information about this assembly is defined by the following attributes. 
 // Change them to the values specific to your project.
 
-[assembly: AssemblyTitle("Naxam.Stripe.iOS")]
+[assembly: AssemblyTitle("nventive.Stripe.iOS")]
 [assembly: AssemblyDescription("Xamarin Binding Library - Stripe iOS SDK")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("NAXAM COMPANY LIMITED")]
+[assembly: AssemblyCompany("nventive")]
 [assembly: AssemblyProduct("X Bindings")]
-[assembly: AssemblyCopyright("Copyright (c) 2017-present NAXAM")]
-[assembly: AssemblyTrademark("NAXAM")]
+[assembly: AssemblyCopyright("Copyright (c) nventive")]
+[assembly: AssemblyTrademark("nventive")]
 [assembly: AssemblyCulture("")]
 
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
