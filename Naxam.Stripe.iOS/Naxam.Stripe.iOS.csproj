@@ -6,8 +6,8 @@
     <ProjectGuid>{2B73D466-860C-42CD-AA68-0F8BE3CB4398}</ProjectGuid>
     <ProjectTypeGuids>{8FFB629D-F513-41CE-95D2-7ECE97B6EEEC};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>Naxam.Stripe.iOS</RootNamespace>
-    <AssemblyName>Naxam.Stripe.iOS</AssemblyName>
+    <RootNamespace>nventive.Stripe.iOS</RootNamespace>
+    <AssemblyName>nventive.Stripe.iOS</AssemblyName>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
