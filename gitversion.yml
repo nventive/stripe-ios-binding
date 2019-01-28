@@ -1,0 +1,4 @@
+
+assembly-versioning-scheme: MajorMinorPatch
+mode: Mainline
+next-version: 13.1
