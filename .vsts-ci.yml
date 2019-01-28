@@ -38,11 +38,9 @@ jobs:
 
   - task: NuGetCommand@2
     inputs:
-      majorVersion: $(GitVersion.Major)
-      minorVersion: $(GitVersion.Minor)
-      patchVersion: $(GitVersion.Patch)
       command: pack
       packagesToPack: stripe.nuspec
+      buildProperties: 'version=$(GitVersion.NuGetVersion)'
 
   - task: PublishBuildArtifacts@1
     inputs:
