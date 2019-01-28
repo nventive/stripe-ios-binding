@@ -4,14 +4,14 @@
     <metadata>
         <!-- Required elements-->
         <id>nventive.Stripe.iOS</id>
-        <version>13.1.1</version>
+        <version>$version$</version>
         <authors>nventive</authors>
         <owners>nventive</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <title>nventive - Stripe for iOS</title>
         <summary>Xamarin.iOS Binding Library - Stripe</summary>
         <description>Xamarin.iOS Binding Library - Stripe</description>
-        <releaseNotes>Stripe for iOS v13.1.1</releaseNotes>
+        <releaseNotes>Stripe for iOS v$version$</releaseNotes>
         <iconUrl>https://avatars3.githubusercontent.com/u/856813</iconUrl>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/nventive/stripe-ios-binding</projectUrl>
