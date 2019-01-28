@@ -1,0 +1,39 @@
+resources:
+- repo: self
+  clean: true
+  lfs: true
+
+phases:
+- phase: Main
+  steps:
+  - task: NuGetToolInstaller@0
+
+  - task: NuGetCommand@2
+    inputs:
+      solution: "Stripe.iOS.sln"
+
+  - task: MSBuild@1
+    inputs:
+      solution: Naxam.Stripe.iOS/Naxam.Stripe.iOS.csproj
+      msbuildLocationMethod: version
+      msbuildVersion: latest
+      msbuildArchitecture: x86
+      msbuildArguments: /p:OutputPath=$(Build.SourcesDirectory)/Naxam.Stripe.iOS/bin/Release/ /p:AllowUnsafeBlocks=true
+      clean: false
+      maximumCpuCount: true
+      restoreNugetPackages: false
+      logProjectEvents: false
+      createLogFile: false
+      platform: 'Any CPU'
+      configuration: Release
+
+  - task: NuGetCommand@2
+    inputs:
+      command: pack
+      packagesToPack: stripe.nuspec
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: $(build.artifactstagingdirectory)
+      ArtifactName: $(build.definitionname)
+      ArtifactType: "Container"

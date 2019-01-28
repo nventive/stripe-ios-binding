@@ -20,6 +20,6 @@
     </metadata>
     <!-- Optional 'files' node -->
     <files>
-        <file src="Naxam.Stripe.iOS/bin/Release/Naxam.Stripe.iOS.dll" target="lib/Xamarin.iOS10/Naxam.Stripe.iOS.dll" />
+        <file src="Naxam.Stripe.iOS/bin/Release/nventive.Stripe.iOS.dll" target="lib/Xamarin.iOS10/nventive.Stripe.iOS.dll" />
     </files>
 </package>
